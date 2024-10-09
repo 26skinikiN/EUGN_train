@@ -21,6 +21,7 @@ public class GroceryApp {
         // Инициализация списка продуктов
         products = new ArrayList<>();
 
+        System.out.println("new changes!");
 
         frame = new JFrame("Регистрация поступлений в продуктовый магазин");
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); // Изменение поведения при закрытии окна
